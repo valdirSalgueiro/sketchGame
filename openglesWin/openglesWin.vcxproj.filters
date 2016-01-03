@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{a3872d98-2356-4e15-9759-c7a952ad5cbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bulletML">
+      <UniqueIdentifier>{5d6cc93a-cbb3-4d72-b891-49700849f818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tinyxml">
+      <UniqueIdentifier>{e2a7fb8f-5d6a-425c-80f9-6bf53eed9bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bulletML\lib">
+      <UniqueIdentifier>{5fc7f2d7-88a4-47e6-b671-5ed818c93d63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\bulletML\lib\ygg">
+      <UniqueIdentifier>{ccd0c02d-b7c5-42fc-9961-a480714f946e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tinyxml\Tween">
+      <UniqueIdentifier>{6a8d80e2-5c3f-4870-a427-547e9bc8c896}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core\font">
+      <UniqueIdentifier>{80817bc0-0e81-4130-82f7-de931b6b548d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bulletML\command.h">
+      <Filter>Source Files\bulletML</Filter>
+    </ClInclude>
+    <ClInclude Include="bulletML\object.h">
+      <Filter>Source Files\bulletML</Filter>
+    </ClInclude>
+    <ClInclude Include="game\GLES2SpriteBatch.h">
+      <Filter>Source Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="sat.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="game\Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="game\gl2d.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="game\GLES11SpriteBatch.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="openglesWin.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="game\SpriteBatch.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="bulletML\command.cpp">
+      <Filter>Source Files\bulletML</Filter>
+    </ClCompile>
+    <ClCompile Include="bulletML\object.cpp">
+      <Filter>Source Files\bulletML</Filter>
+    </ClCompile>
+    <ClCompile Include="game\bulletml\bulletmlparser.cpp">
+      <Filter>Source Files\bulletML\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="game\bulletml\bulletmlparser-tinyxml.cpp">
+      <Filter>Source Files\bulletML\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="game\bulletml\bulletmlparser-xerces.cpp">
+      <Filter>Source Files\bulletML\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="game\bulletml\bulletmlparser-ygg.cpp">
+      <Filter>Source Files\bulletML\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="game\bulletml\bulletmlrunner.cpp">
+      <Filter>Source Files\bulletML\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="game\bulletml\bulletmlrunnerimpl.cpp">
+      <Filter>Source Files\bulletML\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="game\bulletml\bulletmltree.cpp">
+      <Filter>Source Files\bulletML\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="game\bulletml\calc.cpp">
+      <Filter>Source Files\bulletML\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="game\bulletml\formula-variables.cpp">
+      <Filter>Source Files\bulletML\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="game\bulletml\ygg\ygg.cpp">
+      <Filter>Source Files\bulletML\lib\ygg</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Easing.cpp">
+      <Filter>Source Files\tinyxml\Tween</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Tween.cpp">
+      <Filter>Source Files\tinyxml\Tween</Filter>
+    </ClCompile>
+    <ClCompile Include="game\bulletml\tinyxml\tinyxml.cpp">
+      <Filter>Source Files\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="game\bulletml\tinyxml\tinyxmlerror.cpp">
+      <Filter>Source Files\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="game\bulletml\tinyxml\tinyxmlparser.cpp">
+      <Filter>Source Files\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="game\font\FontAtlas.cpp">
+      <Filter>Source Files\core\font</Filter>
+    </ClCompile>
+    <ClCompile Include="game\font\FTBitmapChar.cpp">
+      <Filter>Source Files\core\font</Filter>
+    </ClCompile>
+    <ClCompile Include="game\font\FTBitmapFont.cpp">
+      <Filter>Source Files\core\font</Filter>
+    </ClCompile>
+    <ClCompile Include="game\font\PreCompile.cpp">
+      <Filter>Source Files\core\font</Filter>
+    </ClCompile>
+    <ClCompile Include="game\font\TreeNode.cpp">
+      <Filter>Source Files\core\font</Filter>
+    </ClCompile>
+    <ClCompile Include="game\GLES2SpriteBatch.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Player.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Levels.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+<bulletml type="vertical"
+          xmlns="http://www.asahi-net.or.jp/~cs8k-cyu/bulletml">
+	<action label="top">
+		<fire>
+			<direction type="absolute">0</direction>
+			<bulletRef label="curved" />
+		</fire>
+		<fire>
+			<direction type="absolute">180</direction>
+			<bulletRef label="curved" />
+			
+		</fire>
+	</action>
+	
+	<bullet label="curved">
+		<action>
+			<changeDirection>
+				<direction type="absolute">-90</direction>
+				<term>30</term>
+			</changeDirection>
+			<wait>30</wait>
+			<fire>
+				<bullet />
+			</fire>
+		</action>
+	</bullet>
+</bulletml>

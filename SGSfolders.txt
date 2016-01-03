@@ -1,0 +1,3 @@
+sothink export C:\Users\VNS\Documents\mech\mech_ph test v4\Shape
+flash export C:\Users\VNS\Documents\swfexport
+texturepacker C:\SGS\mecha\sprites

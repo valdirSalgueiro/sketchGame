@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<!DOCTYPE bulletml SYSTEM "../bulletml.dtd">
+
+<bulletml type="vertical"
+          xmlns="http://www.asahi-net.or.jp/~cs8k-cyu/bulletml">
+
+<action label="top">
+
+  <repeat><times>1 + 3 * $rank</times><action>
+    <fire>
+      <direction type="aim">-20 + 40 * $rand</direction>
+      <bulletRef label="t-beam">
+      </bulletRef>
+    </fire>
+    <wait>60 - 20 * $rank</wait>
+  </action></repeat>
+
+  <wait>200</wait>
+
+</action>
+
+<bullet label="t-beam">
+<speed>1.8</speed>
+<action>
+
+  <repeat><times>999</times><action>
+    <fire>
+      <direction type="relative">0</direction>
+      <bulletRef label="bit"/>
+    </fire>
+    <wait>15 - 10 * $rank</wait>
+  </action></repeat>
+
+</action>
+</bullet>
+
+<bullet label="bit">
+<speed>0.0001</speed>
+<action>
+
+  <wait>80</wait>
+
+    <fire>
+      <direction type="relative">90</direction>
+      <bulletRef label="accel"/>
+    </fire>
+    <fire>
+      <direction type="relative">-90</direction>
+      <bulletRef label="accel"/>
+    </fire>
+
+  <vanish/>
+
+</action>
+</bullet>
+
+<bullet label="accel">
+<speed>0.1 + 0.9 * $rank</speed>
+<action>
+
+  <changeSpeed>
+    <speed>4.0</speed>
+    <term>300</term>
+  </changeSpeed>
+
+</action>
+</bullet>
+
+</bulletml>

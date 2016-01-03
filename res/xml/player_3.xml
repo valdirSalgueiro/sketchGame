@@ -1,0 +1,43 @@
+<bulletml type="vertical"
+          xmlns="http://www.asahi-net.or.jp/~cs8k-cyu/bulletml">
+	<action label="top">
+		<fire>
+			<direction type="relative">135</direction>
+			<bulletRef label="curveRight" />
+		</fire>
+		
+		<fire>
+			<direction type="absolute">90</direction>
+			<bullet>
+			<speed>4</speed>
+			</bullet>
+		</fire>
+        
+		<fire>
+			<direction type="relative">45</direction>
+			<bulletRef label="curveLeft" />
+		</fire>
+	</action>
+	
+	<bullet label="curveLeft">
+		<speed>4</speed>
+		<action>
+			<wait>8</wait>
+			<changeDirection>
+				<direction type="relative">90</direction>
+				<term>15</term>
+			</changeDirection>
+		</action>
+	</bullet>
+
+	<bullet label="curveRight">
+		<speed>4</speed>
+		<action>
+			<wait>8</wait>
+			<changeDirection>
+				<direction type="relative">-90</direction>
+				<term>15</term>
+			</changeDirection>
+		</action>
+	</bullet>
+</bulletml>

@@ -1,0 +1,96 @@
+
+1.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+image 99.png
+  rotate: false
+  xy: 0, 0
+  size: 1920, 216
+  orig: 1920, 216
+  offset: 0, 0
+  index: -1
+image 191.png
+  rotate: false
+  xy: 0, 218
+  size: 1024, 470
+  orig: 1024, 470
+  offset: 0, 0
+  index: -1
+shape 98.png
+  rotate: false
+  xy: 0, 690
+  size: 984, 500
+  orig: 984, 500
+  offset: 0, 0
+  index: -1
+shape 558.png
+  rotate: false
+  xy: 1026, 218
+  size: 929, 213
+  orig: 929, 213
+  offset: 0, 0
+  index: -1
+shape 114.png
+  rotate: false
+  xy: 0, 1192
+  size: 731, 542
+  orig: 731, 542
+  offset: 0, 0
+  index: -1
+painel.png
+  rotate: false
+  xy: 1026, 433
+  size: 673, 182
+  orig: 673, 182
+  offset: 0, 0
+  index: -1
+purpurinanave.png
+  rotate: false
+  xy: 986, 690
+  size: 601, 395
+  orig: 601, 395
+  offset: 0, 0
+  index: -1
+shape 103.png
+  rotate: false
+  xy: 986, 1087
+  size: 473, 471
+  orig: 473, 471
+  offset: 0, 0
+  index: -1
+shape 108.png
+  rotate: false
+  xy: 1701, 433
+  size: 304, 81
+  orig: 304, 81
+  offset: 0, 0
+  index: -1
+shape 111.png
+  rotate: false
+  xy: 1026, 617
+  size: 138, 28
+  orig: 138, 28
+  offset: 0, 0
+  index: -1
+onscreencontrolbase.png
+  rotate: false
+  xy: 1701, 516
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+onscreencontrolknob.png
+  rotate: false
+  xy: 1922, 0
+  size: 52, 52
+  orig: 52, 52
+  offset: 0, 0
+  index: -1
+point.png
+  rotate: false
+  xy: 1976, 0
+  size: 4, 4
+  orig: 4, 4
+  offset: 0, 0
+  index: -1
