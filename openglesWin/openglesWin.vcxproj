@@ -51,13 +51,13 @@
       <WarningLevel>TurnOffAllWarnings</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);USE_FONT</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>OGLES;png;C:\SDL\include;bulletml\inc;C:\Program Files (x86)\boost_1_47_0;game;C:\Users\vns\Downloads\Chipmunk2D-master-msvc\Chipmunk2D-master\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>OGLES;png;C:\SDL\include;bulletml\inc;C:\Program Files (x86)\boost_1_47_0;game;</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>%(AdditionalDependencies);libEGL.lib;libpng16d.lib;SDLmain.lib;SDL.lib;libGLESv2.lib;freetype2410_D.lib;C:\Users\vns\Downloads\Chipmunk2D-master-msvc\Chipmunk2D-master\msvc\vc10\chipmunk\Win32\Debug\chipmunk.lib</AdditionalDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies);libEGL.lib;libpng16d.lib;SDLmain.lib;SDL.lib;libGLESv2.lib;freetype2410_D.lib;chipmunk.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>OGLES;png;../lib</AdditionalLibraryDirectories>
       <IgnoreAllDefaultLibraries>
       </IgnoreAllDefaultLibraries>
